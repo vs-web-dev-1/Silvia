@@ -19,7 +19,7 @@ if (canBuy) {
   console.log("y cuesta: " + precio);
   let necesito = precio - saldo;
   console.log("necesito: " + necesito);
- //esto es otra forma de hacer el if 
+ //esto es otra forma de hacer el if oculto y se llama ternario
   necesito > creditoDisponible
   ? console.log("no puedo pedir credito")
   : console.log("si puedo pedir credito")
