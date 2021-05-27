@@ -3,7 +3,7 @@ let precio = 1800;
 let canBuy = saldo > precio;
 let creditoDisponible = 2000;
 //let puedoComprar = saldo > precio;
-//la variavle puedo comprar tiene valor cierto o faldo
+//la variable puedo comprar tiene valor cierto o faldo
 //se puede hacer el if de cualquier forma
 //if (puedoComprar == true) {
   if (saldo > precio) {  

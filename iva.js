@@ -25,3 +25,19 @@ console.log("calcula cuota total:  " + total1);
 console.log("calcula importe2:  " + import2);
 console.log("calcula ivaNormal total:  " + ivaNormal);
 
+
+//array de productos
+let productos = [{nombre:"Libreta",valor:2,exento:false}, {nombre:"Curso",valor:300,exento:true}, {nombre:"Rotulador",valor:1,exento:false}];
+
+for (let item=0; item < productos.length; item++) {
+    console.log ("Producto: " + productos[item].nombre);
+    console.log ("Valor: " + productos[item].valor + " €");
+    if (productos[item].exento==true) {
+        console.log ("Producto exento de IVA");
+        console.log ("Total: " + productos[item].valor + " €");
+    } else {
+        console.log ("Tipo de IVA: " + ivaNormal + " %");
+        console.log ("Total: " + (productos[item].valor * (1.00 + (ivaNormal/100))) + " €");
+    }
+} 
+
