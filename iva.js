@@ -14,7 +14,6 @@ function calcularConIva(precio,ivaNormal=21) {
 importe1 = calcularConIva(precio);
 console.log("calcula cuota de iva:  " + importe1);
 
-
 function calcularTotalIva (precio,ivaNormal=21) {
   let total = precio + (precio * ivaNormal/100);
   return  total;
